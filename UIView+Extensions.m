@@ -8,7 +8,7 @@
 
 - (void)setBoundsX:(CGFloat)x
 {
-    self.frame = CGRectMake(x, self.bounds.origin.y, self.bounds.size.width, self.bounds.size.height);
+    self.bounds = CGRectMake(x, self.bounds.origin.y, self.bounds.size.width, self.bounds.size.height);
 }
 
 - (CGFloat)boundsX
